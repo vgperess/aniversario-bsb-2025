@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,49 +7,52 @@
     <title>Aniversário de Brasília</title>
 </head>
 <body>
-    <!--Cabeçalho da página-->
+    <!-- Cabeçalho da página -->
     <header>
-        <h1>Venha comemorar o  65° Aniversário da capital!!</h1>
+        <h1>Venha comemorar o 65° Aniversário da capital!!</h1>
     </header>
     <main>
-        <!--INÍCIO-->
+        <!-- INÍCIO -->
         <section>
             <h1 class="inicio" id="Início">Serão <span>5 dias</span> de muita festa para aproveitar bastante.</h1>
-            <P class="p1">
-               
-                Venha Celebrar os 65 Anos de Brasília – Uma História que Também é Sua!<br> 
-
-Brasília não é apenas a capital do Brasil; é um símbolo de sonho, inovação e determinação. E no seu <strong>65° aniversário</strong>, queremos celebrar essa trajetória incrível <strong>com você</strong>!  <br>
-<br>
-
-<h3>Por que não pode faltar? </h3>
-<span> - Show exclusivo</span> com grandes nomes da música brasileira. <br> 
-<br>
-<span> - Exposições </span> que contam a história e o futuro da nossa cidade.  <br>
-<br>
-<span> - Gastronomia </span> com sabores que representam a diversidade de Brasília.   <br>
-<br>
-<span> - Momentos emocionantes </span> – porque celebrar 65 anos é reviver memórias e criar novas.  <br>
-<br>
-Data: 21 de abril  <br>
-Local: Esplanada dos Ministérios  <br>
-<br>
-Não fique de fora dessa festa que marca não só a história de Brasília, mas a <span>sua também</span>. Traga a família, os amigos e venha fazer parte desse momento único.  
-<br>
-<br>
-Brasília 65 anos: Uma cidade, muitas histórias. E a sua está aqui!
-<br>
-<br>
-<strong>Confirme sua presença e prepare-se para uma celebração inesquecível. </strong>
+            <p class="p1">
+                Venha Celebrar os 65 Anos de Brasília – Uma História que Também é Sua!<br>
+                Brasília não é apenas a capital do Brasil; é um símbolo de sonho, inovação e determinação. E no seu <strong>65° aniversário</strong>, queremos celebrar essa trajetória incrível <strong>com você</strong>!<br>
+            </p>
+            <h3>Por que não pode faltar?</h3>
+            <div class="topics-container">
+                <div class="topic" onclick="toggleImage('image1')">
+                    <span> - Show exclusivo</span> com grandes nomes da música brasileira.
+                    <img id="image1" src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2023/01/30123710/Show-1-1.jpg" alt="show zé neto e cristiano" style="display:none;" width="500">
+                </div>
+                <div class="topic" onclick="toggleImage('image2')">
+                    <span> - Exposições </span> que contam a história e o futuro da nossa cidade.
+                    <img id="image2" src="https://www.quintoandar.com.br/guias/wp-content/uploads/2023/04/museus-brasilia-8-1.jpg" alt="museu em Brasília" style="display:none;" width="500">
+                </div>
+                <div class="topic" onclick="toggleImage('image3')">
+                    <span> - Gastronomia </span> com sabores que representam a diversidade de Brasília.
+                    <img id="image3" src="https://uploads.metroimg.com/wp-content/uploads/2020/09/21143838/Design-sem-nome-10_Easy-Resize.com_.jpg" alt="pizza dom bosco" style="display:none;" width="500">
+                </div>
+            </div>
+            <h2><span> - Momentos emocionantes </span> – porque celebrar 65 anos é reviver memórias e criar novas.</h2>
+            <p>
+                <strong>Data: </strong><span> 21 de abril</span><br>
+                <strong>Local: </strong><span> Esplanada dos Ministérios</span><br>
+                Não fique de fora dessa festa que marca não só a história de Brasília, mas a <span>sua também</span>. Traga a família, os amigos e venha fazer parte desse momento único.<br>
+                Brasília 65 anos: Uma cidade, muitas histórias. E a sua está aqui!<br>
+                <strong>Confirme sua presença e prepare-se para uma celebração inesquecível.</strong>
+            </p>
         </section>
     </main> 
+    <footer>
+        <h3>Telefone para contato: (61) 4002-8922</h3>
+    </footer>
+    <script>
+        function toggleImage(imageId) {
+            const img = document.getElementById(imageId);
+            img.style.display = img.style.display === 'none' ? 'block' : 'none';
+        }
+        
+    </script>
 </body>
-<br>
-<footer>
-
- <h3> Telefone para contato: (61) 4002-8922</h3>
-
-</footer>
-
-
 </html>
