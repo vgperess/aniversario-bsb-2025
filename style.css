@@ -1,0 +1,57 @@
+/* Reset de CSS para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    background-color: #53565a;
+    background-image: url(https://img.freepik.com/fotos-premium/vista-da-catedral-metropolitana-de-brasilia-com-reflexos-do-ceu-em-seus-vitrais_266402-1192.jpg?w=740);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+html::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajuste a opacidade aqui */
+    z-index: 1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    position: relative;
+    z-index: 2;
+    min-height: 100%; /* Garante que o body ocupe toda a altura */
+}
+
+span {
+    font-weight: 1000;
+    color: #7bafd4;
+}
+
+header {
+    background-image: url(https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2019/11/15115526/FL_8576-1.jpg);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 120%;
+    border-bottom: #418fde solid 4px;
+}
+
+footer{
+    background-color: #53565a;
+}
