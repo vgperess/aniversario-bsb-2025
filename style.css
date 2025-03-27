@@ -42,7 +42,7 @@ span {
 }
 
 header {
-    background-image: url(https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2019/11/15115526/FL_8576-1.jpg);
+    position: relative;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -50,6 +50,21 @@ header {
     -webkit-text-stroke-color: #000;
     font-size: 120%;
     border-bottom: #418fde solid 4px;
+    z-index: 2;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2019/11/15115526/FL_8576-1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 footer{
