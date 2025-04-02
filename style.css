@@ -243,3 +243,31 @@ header {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 1.1em; /* Increase font size for topics */
 }
+
+.sec2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2019/11/15115526/FL_8576-1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.sec2 {
+    position: fixed;
+    width: 100%;
+    color: white;
+    padding: 2vh 1vw; /* Use viewport units for padding */
+    text-align: center; /* Center text in the header */
+    -webkit-text-stroke-width: 0.05vw;
+    -webkit-text-stroke-color: #000;
+    font-size: 1.5vw; /* Increase font size for the header */
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
