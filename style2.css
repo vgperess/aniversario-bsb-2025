@@ -293,3 +293,15 @@ a:hover {
     transform: translateY(-1vh);
     box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
 }
+
+h3{
+    color:aquamarine ;
+}
+
+.impactos{
+    text-align:center;
+}
+
+.imp{
+    color: white;
+}

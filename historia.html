@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>História</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Venha comemorar o 65° Aniversário da capital!!</h1>
+    </header>
+    <main>
+        <!-- INÍCIO -->
+        <section>
+            <h1 class="inicio" id="Início">A construção da nossa <span>Capital Federal</span> foi um marco importantíssimo para o legado de nossa história! </h1>
+            <br>
+            <p class="p1">
+                A mudança da <strong> capital brasileira para o Centro-Oeste </strong> foi um projeto antigo, previsto desde o período colonial e reforçado pela <span> Constituição de 1891 </span>, que determinava a transferência da capital do Rio de Janeiro para o interior do país.<br>
+                <br>
+            </p>
+            <h3>As fases da construção:</h3>
+            <div class="topics-container">
+                <div class="topic" onclick="toggleImage('image1')">
+                    A ideia ganhou força durante o governo de Juscelino Kubitschek (1956–1961), que, como parte de seu plano de desenvolvimento '50 anos em 5', transformou o sonho em realidade.
+                    <img id="image1" src="https://s2-g1.glbimg.com/3zkX7Oc4fzTg-CfG-E8URCiROqw=/0x0:1920x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/4/o/ty9C1aSRWzGwD8PSZe1g/imagens-g1-16-.png" alt="Presidente JK chegando na capital" style="display:none;" width="500">
+                </div>
+                <div class="topic" onclick="toggleImage('image2')">
+                    Em 1956, foi lançado o edital para a construção de Brasília, projetada por Oscar Niemeyer e Lúcio Costa, e em 21 de abril de 1960 a nova capital foi oficialmente inaugurada, simbolizando a modernização e a integração nacional.
+                    <img id="image2" src="https://cdn.prod.website-files.com/60ff690cd7b0537edb99a29a/61fc164d318146c5d2cbff12_pr%C3%A9dios-em-constru%C3%A7%C3%A3o-em-bras%C3%ADlia.jpg" alt="Construção de Brasília" style="display:none;" width="500">
+                </div>
+                <div class="topic" onclick="toggleImage('image3')">
+                    Brasília, hoje uma metrópole de 3 milhões de habitantes, consolidou-se como centro político e símbolo nacional, cumprindo seu papel de integração do país, ainda que enfrente desafios urbanos e sociais.
+                    <img id="image3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Planalto_Central_%28cropped%29.jpg/330px-Planalto_Central_%28cropped%29.jpg" alt="Brasília hoje em dia style="display:none;" width="500">
+                </div>
+            </div>
+            <h1 class="imp">Impactos da Transferência da Capital para o Centro-Oeste</h1>
+        </section>
+        <br>
+            <section class="impactos">
+    <h3>Econômicos</h3>
+    <ul>
+        <li>Atração de <strong class="strong">investimentos</strong> e migrantes de várias regiões.</li>
+        <li>Desenvolvimento acelerado, mas com <strong class="strong">infraestrutura insuficiente</strong>.</li>
+        <li>Surgimento de <strong class="strong">cidades-satélites</strong> e desigualdades sociais.</li>
+    </ul>
+<br>
+    <h3>Políticos</h3>
+    <ul>
+        <li>Fortalecimento da <strong class="strong">presença do Estado</strong> no interior.</li>
+        <li>Centralização do <strong class="strong">poder e da burocracia</strong> longe dos grandes centros urbanos.</li>
+        <li>Incentivo à <strong class="strong">ocupação e integração</strong> da região.</li>
+    </ul>
+<br>
+    <h3>Urbanos/Sociais</h3>
+    <ul>
+        <li><strong>Crescimento populacional</strong> desordenado.</li>
+        <li>Contrastes entre o <strong class="strong">Plano Piloto</strong> e as áreas periféricas.</li>
+        <li>Legado de <strong class="strong">modernismo arquitetônico</strong>, mas com desafios de planejamento.</li>
+    </ul>
+            <br>
+            <br>
+
+        </section>
+
+        <section>
+
+                <nav>
+                        <a href="index.html"> Início</a>
+                </nav>
+
+<br>
+<br>                
+        </section>
+    </main> 
+    <footer>
+        <h3>Telefone para contato: (61) 4002-8922</h3>
+    </footer>
+    <script>
+        function toggleImage(imageId) {
+            const img = document.getElementById(imageId);
+            img.style.display = img.style.display === 'none' ? 'block' : 'none';
+        }
+        
+    </script>
+</body>
+</html>
