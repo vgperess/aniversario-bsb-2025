@@ -49,6 +49,7 @@ header::before {
     background-position: center;
     opacity: 0.6;
     z-index: -1;
+    
 }
 
 footer {
