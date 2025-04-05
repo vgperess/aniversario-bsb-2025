@@ -1,4 +1,4 @@
-/* Reset de CSS para remover margens e preenchimentos padrão */
+
 * {
     margin: 0;
     padding: 0;
@@ -55,7 +55,7 @@ header::before {
 footer {
     background-color: #53565a;
     margin-top: auto;
-    padding: 2vh 1vw; /* Use viewport units for padding */
+    padding: 2vh 1vw;
     z-index: 2;
 }
 
@@ -74,9 +74,9 @@ img {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 90vw; /* Use viewport width */
+    width: 90vw;
     max-width: 1200px;
-    margin: 4vh auto; /* Use viewport height for margin */
+    margin: 4vh auto;
     position: relative;
 }
 
@@ -88,13 +88,13 @@ img {
 .carousel-item img {
     width: 100%;
     height: auto;
-    margin-top: 2vh; /* Use viewport height for margin */
-    border-radius: 1vw; /* Use viewport width for border radius */
+    margin-top: 2vh;
+    border-radius: 1vw;
     box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.2);
 }
 
 .carousel-text {
-    margin-top: 2vh; /* Use viewport height for margin */
+    margin-top: 2vh;
     color: #7bafd4;
     font-weight: bold;
 }
@@ -105,31 +105,31 @@ img {
 }
 
 .carousel-button.left {
-    left: 1vw; /* Use viewport width for positioning */
+    left: 1vw; 
 }
 
 .carousel-button.right {
-    right: 1vw; /* Use viewport width for positioning */
+    right: 1vw; 
 }
 
 .topics-container {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    padding: 4vh 0; /* Use viewport height for padding */
+    padding: 4vh 0; 
     flex-wrap: wrap;
 }
 
 
 .topic:hover {
-    transform: translateY(-1vh); /* Use viewport height for transform */
+    transform: translateY(-1vh); 
     box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.2);
 }
 
 .topic img {
     width: 100%;
     height: auto;
-    margin-top: 2vh; /* Use viewport height for margin */
+    margin-top: 2vh; 
     border-radius: 1vw;
     box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.2);
 }
@@ -137,15 +137,15 @@ img {
 .carousel-indicators {
     display: flex;
     justify-content: center;
-    margin-top: 2vh; /* Use viewport height for margin */
+    margin-top: 2vh; 
 }
 
 .carousel-indicator {
-    width: 1.2vw; /* Use viewport width */
-    height: 1.2vw; /* Use viewport width */
+    width: 1.2vw; 
+    height: 1.2vw; 
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 50%;
-    margin: 0 0.5vw; /* Use viewport width for margin */
+    margin: 0 0.5vw; 
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -154,7 +154,7 @@ img {
     background-color: #418fde;
 }
 
-/* Responsividade para o carousel */
+
 @media (max-width: 768px) {
     .carousel-container {
         width: 95vw;
@@ -186,9 +186,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15vh; /* Adjusted padding to account for header height */
-    text-align: center; /* Center text in the body */
-    font-size: 1.2em; /* Increase the font size for the entire page */
+    padding-top: 15vh;
+    text-align: center; 
+    font-size: 1.2em; 
 }
 
 header {
@@ -197,11 +197,11 @@ header {
     left: 0;
     width: 100%;
     color: white;
-    padding: 2vh 1vw; /* Use viewport units for padding */
-    text-align: center; /* Center text in the header */
+    padding: 2vh 1vw;
+    text-align: center;
     -webkit-text-stroke-width: 0.1vw;
     -webkit-text-stroke-color: #000;
-    font-size: 1.5vw; /* Increase font size for the header */
+    font-size: 1.5vw; 
     border-bottom: 0.5vh solid #418fde;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
@@ -209,10 +209,10 @@ header {
 }
 
 .carousel-text {
-    margin-top: 2vh; /* Use viewport height for margin */
+    margin-top: 2vh; 
     color: #7bafd4;
     font-weight: bold;
-    font-size: 1.1em; /* Increase font size for carousel text */
+    font-size: 1.1em;
 }
 
 .carousel-button {
@@ -222,27 +222,27 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 1vh 2vw; /* Use viewport units for padding */
+    padding: 1vh 2vw; 
     cursor: pointer;
     z-index: 3;
-    border-radius: 1vw; /* Use viewport width for border radius */
+    border-radius: 1vw;
     transition: background-color 0.3s ease;
-    font-size: 1em; /* Increase font size for carousel buttons */
+    font-size: 1em; 
 }
 
 .topic {
     flex: 1;
-    text-align: center; /* Center text in topics */
-    padding: 2vh 1vw; /* Use viewport units for padding */
-    min-width: 25vw; /* Use viewport width */
-    margin: 1vh 0.5vw; /* Use viewport units for margin */
+    text-align: center; 
+    padding: 2vh 1vw; 
+    min-width: 25vw; 
+    margin: 1vh 0.5vw;
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
     border: 0.1vh solid rgba(255, 255, 255, 0.2);
     border-radius: 1vw;
     box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-size: 1.1em; /* Increase font size for topics */
+    font-size: 1.1em; 
 }
 
 .sec2:before {
@@ -263,11 +263,11 @@ header {
     position: fixed;
     width: 100%;
     color: white;
-    padding: 2vh 1vw; /* Use viewport units for padding */
-    text-align: center; /* Center text in the header */
+    padding: 2vh 1vw; 
+    text-align: center;
     -webkit-text-stroke-width: 0.05vw;
     -webkit-text-stroke-color: #000;
-    font-size: 1.5vw; /* Increase font size for the header */
+    font-size: 1.5vw; 
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
@@ -275,17 +275,17 @@ header {
 
 a{
     flex: 1;
-    text-align: center; /* Center text in topics */
-    padding: 2vh 1vw; /* Use viewport units for padding */
-    min-width: 25vw; /* Use viewport width */
-    margin: 1vh 0.5vw; /* Use viewport units for margin */
+    text-align: center; 
+    padding: 2vh 1vw; 
+    min-width: 25vw; 
+    margin: 1vh 0.5vw; 
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.1);
     border: 0.1vh solid rgba(255, 255, 255, 0.2);
     border-radius: 1vw;
     box-shadow: 0 0.5vh 1vh rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-size: 1.1em; /* Increase font size for topics */
+    font-size: 1.1em;
 
     color: #7bafd4;
 }
